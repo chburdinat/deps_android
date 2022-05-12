@@ -15,7 +15,7 @@ export PATH=$TOOLCHAIN/bin:$PATH
 
 SSLDIR="${PWD}"
 
-for ABI in "armeabi-v7a" "x86"; do
+for ABI in "armeabi-v7a" "arm64-v8a" "x86"; do
 
     PREFIX=${SSLDIR}/android/${ABI}
     DEST1="../build/android/libs/$ABI"

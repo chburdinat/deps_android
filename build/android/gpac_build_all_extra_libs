@@ -23,15 +23,15 @@ LIBPATH=$(pwd)
 
 mkdir -p $LIBPATH/armeabi
 mkdir -p $LIBPATH/armeabi-v7a
-# mkdir -p $LIBPATH/arm64-v8a
+mkdir -p $LIBPATH/arm64-v8a
 mkdir -p $LIBPATH/x86
 
 cd armeabi/
 rm -f *.so
 cd ../armeabi-v7a
 rm -f *.so
-# cd ../arm64-v8a
-# rm -f *.so
+cd ../arm64-v8a
+rm -f *.so
 cd ../x86
 rm -f *.so
 
